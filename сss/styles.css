@@ -1,3 +1,116 @@
-body {
-background-colar:tomato;
+:root {
+    --primari-text-color: #212121;
+    --title-text-color: #2196F3;;
+    --accent-color:#fff;
+    --text-color: #757575;
 }
+
+.body {
+background-color: #fff;
+    color: #757575 ;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo-start {
+    color: var(--title-text-color)
+}
+
+.page-header a {
+color: var(--primari-text-color);
+}
+
+.site-nav .link{
+    color: var(--primari-text-color)
+}
+ .link:hover, 
+ .link:focus {
+    color:var(--title-text-color)
+}
+
+.site-nav .link.current{
+    color: var(--title-text-color);
+}
+
+.auth-nav .link {
+color: var(--text-color);
+}
+
+.auth-nav .link.current {
+    color: var(--title-text-color)
+}
+/*class="section">*/
+.section {
+    background-color: #2F303A;
+}
+/*<section class="section-lite">*/
+.section .title {
+color: var(--accent-color);
+}
+
+/*<section class="hero">*/
+.feature-list .p {
+    color: var(--primari-text-color)
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.button.primary {
+background-color: var(--title-text-color);
+color: var(--accent-color);
+}
+
+.hero .title {
+    color: var(--primari-text-color);
+}
+
+.hero p {
+    color: var(--text-color);
+}
+/* <section class="pictures">*/
+.work-list {
+    list-style: none;
+}
+
+.work-list p {
+    color: var(--text-color);
+}
+
+.work-img {
+    list-style: none;
+}
+
+.work-img p {
+    color: var(--text-color);
+}
+/*footer*/
+.footer {
+    background-color: #2F303A;
+}
+
+.footer a {
+    color: var(--title-text-color);
+}
+
+.work-strit .link {
+    color: var(--accent-color);
+}
+
+.work-strit .-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+ 
+.logo-finish {
+    color: var(--accent-color);
+}
+
+.work-strit {
+    list-style: none;
+}
+
+
+  /*стили для портфолио*/
